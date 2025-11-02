@@ -449,3 +449,8 @@ SUCCESS - Image validated and ready
    Reload env: .env.local
  GET / 200 in 1772ms (compile: 764ms, render: 1008ms)
  GET / 200 in 434ms (compile: 15ms, render: 419ms)
+ GET / 200 in 300ms (compile: 67ms, render: 233ms)
+ GET / 200 in 205ms (compile: 8ms, render: 197ms)
+ GET / 200 in 678ms (compile: 28ms, render: 650ms)
+ GET / 200 in 412ms (compile: 19ms, render: 393ms)
+ ✓ Compiled in 598ms

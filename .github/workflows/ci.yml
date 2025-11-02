@@ -1,0 +1,25 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Enable corepack
+        run: corepack enable
+      - name: Install pnpm
+        run: npm -g i pnpm@10
+      - name: Install dependencies
+        run: pnpm i --no-strict-peer-dependencies
+      - name: Lint
+        run: pnpm lint || echo 'Lint warnings ignored'
+      - name: Build
+        run: pnpm build

@@ -1,0 +1,451 @@
+
+> my-v0-project@0.1.0 dev D:\test\BigModel\nanobanana-clone
+> next dev -p 3007 "-p" "3007"
+
+   ▲ Next.js 16.0.0 (Turbopack)
+   - Local:        http://localhost:3007
+   - Network:      http://172.21.144.1:3007
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.3s
+ ○ Compiling / ...
+ GET / 200 in 8.0s (compile: 6.5s, render: 1561ms)
+ GET / 200 in 524ms (compile: 50ms, render: 474ms)
+ GET / 200 in 392ms (compile: 6ms, render: 386ms)
+ GET / 200 in 542ms (compile: 11ms, render: 531ms)
+Starting image generation...
+Prompt: create a 1/7 scale commercialized figure of thecharacter in the illustration, in a realistic styie and environment.Place the figure on a computer desk, using a circular transparent acrylic base without any text.On the computer screen, display the ZBrush modeling process of the figure.Next to the computer screen, place a BANDAl-style toy packaging box printedwith the original artwork.
+Image file: 科技头像.jpg 95918 image/jpeg
+Generated seed: 1539678717
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/create%20a%201%2F7%20scale%20commercialized%20figure%20of%20thecharacter%20in%20the%20illustration%2C%20in%20a%20realistic%20styie%20and%20environment.Place%20the%20figure%20on%20a%20computer%20desk%2C%20using%20a%20circular%20transparent%20acrylic%20base%20without%20any%20text.On%20the%20computer%20screen%2C%20display%20the%20ZBrush%20modeling%20process%20of%20the%20figure.Next%20to%20the%20computer%20screen%2C%20place%20a%20BANDAl-style%20toy%20packaging%20box%20printedwith%20the%20original%20artwork.%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=1539678717&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 4.8s (compile: 874ms, render: 3.9s)
+   Reload env: .env.local
+ GET / 200 in 1702ms (compile: 553ms, render: 1149ms)
+ GET / 200 in 734ms (compile: 24ms, render: 710ms)
+ GET / 200 in 461ms (compile: 32ms, render: 429ms)
+ GET / 200 in 698ms (compile: 14ms, render: 684ms)
+ GET / 200 in 496ms (compile: 14ms, render: 482ms)
+ GET / 200 in 346ms (compile: 7ms, render: 339ms)
+Starting image generation...
+Prompt: Test via OpenRouter img2img: keep same subject, change background to studio lighting
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 1071861724
+Trying OpenRouter Responses (img2img)...
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Test%20via%20OpenRouter%20img2img%3A%20keep%20same%20subject%2C%20change%20background%20to%20studio%20lighting%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=1071861724&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 17.6s (compile: 184ms, render: 17.4s)
+Starting image generation...
+Prompt: Test via OpenRouter images/edits: keep same subject, change background
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 782905857
+Trying OpenRouter Responses (img2img)...
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Test%20via%20OpenRouter%20images%2Fedits%3A%20keep%20same%20subject%2C%20change%20background%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=782905857&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 22.1s (compile: 119ms, render: 22.0s)
+Starting image generation...
+Prompt: Test OpenRouter Responses with output_image
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 1948610201
+Trying OpenRouter Responses (img2img)...
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Test%20OpenRouter%20Responses%20with%20output_image%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=1948610201&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Validation attempt 1 failed: 502
+Waiting 1000ms before retry...
+Validating image URL (attempt 2/2)...
+Validation attempt 2 failed: 502
+All validation attempts failed, but returning URL anyway
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 17.5s (compile: 121ms, render: 17.3s)
+Starting image generation...
+Prompt: Gemini 2.5 Flash Image test: keep identity, change background
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 143294541
+Trying OpenRouter Responses (img2img)...
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+Trying OpenRouter chat.completions with model: stability-ai/stable-image-ultra
+chat.completions error: 400 {"error":{"message":"stability-ai/stable-image-ultra is not a valid model ID","code":400},"user_id":"user_34pBISraKCxufGLF2A2fChhTWDw"}
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Gemini%202.5%20Flash%20Image%20test%3A%20keep%20identity%2C%20change%20background%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=143294541&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Validation attempt 1 failed: 502
+Waiting 1000ms before retry...
+Validating image URL (attempt 2/2)...
+Validation attempt 2 failed: 500
+All validation attempts failed, but returning URL anyway
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 11.9s (compile: 267ms, render: 11.7s)
+   Reload env: .env.local
+ GET / 200 in 1602ms (compile: 405ms, render: 1197ms)
+ GET / 200 in 835ms (compile: 21ms, render: 814ms)
+ GET / 200 in 883ms (compile: 25ms, render: 858ms)
+ GET / 200 in 953ms (compile: 29ms, render: 924ms)
+ GET / 200 in 632ms (compile: 22ms, render: 610ms)
+ GET / 200 in 432ms (compile: 18ms, render: 414ms)
+Starting image generation...
+Prompt: Gemini 2.5 Flash Image test with reference
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 483215381
+Trying OpenRouter Responses (img2img)...
+OpenRouter trying model: google/gemini-2.5-flash-image
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+Trying OpenRouter chat.completions with model: google/gemini-2.5-flash-image
+chat.completions response contained no image payload
+OpenRouter images/edits trying model: google/gemini-2.5-flash-image
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Gemini%202.5%20Flash%20Image%20test%20with%20reference%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=483215381&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 15.6s (compile: 60ms, render: 15.5s)
+ ✓ Compiled in 1350ms
+Starting image generation...
+Prompt: Gemini with temp host: keep identity, change background
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 795991609
+Trying OpenRouter Responses (img2img)...
+Temp upload failed: 400
+OpenRouter trying model: google/gemini-2.5-flash-image
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+Trying OpenRouter chat.completions with model: google/gemini-2.5-flash-image
+Temp upload failed: 400
+chat.completions response contained no image payload
+OpenRouter images/edits trying model: google/gemini-2.5-flash-image
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Gemini%20with%20temp%20host%3A%20keep%20identity%2C%20change%20background%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=795991609&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 33.8s (compile: 276ms, render: 33.5s)
+Starting image generation...
+Prompt: Gemini with temp host (multi-host): keep identity
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 325338832
+Trying OpenRouter Responses (img2img)...
+0x0.st upload failed: 400
+OpenRouter trying model: google/gemini-2.5-flash-image
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+Trying OpenRouter chat.completions with model: google/gemini-2.5-flash-image
+0x0.st upload failed: 400
+chat.completions response contained no image payload
+OpenRouter images/edits trying model: google/gemini-2.5-flash-image
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Gemini%20with%20temp%20host%20(multi-host)%3A%20keep%20identity%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=325338832&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Validation attempt 1 failed: 502
+Waiting 1000ms before retry...
+Validating image URL (attempt 2/2)...
+Validation attempt 2 failed: 502
+All validation attempts failed, but returning URL anyway
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 33.6s (compile: 131ms, render: 33.5s)
+Starting image generation...
+Prompt: Gemini with temp host (raw attempt)
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 1940391266
+Trying OpenRouter Responses (img2img)...
+0x0.st upload failed: 400
+0x0.st raw upload failed: 400
+OpenRouter trying model: google/gemini-2.5-flash-image
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+Trying OpenRouter chat.completions with model: google/gemini-2.5-flash-image
+0x0.st upload failed: 400
+0x0.st raw upload failed: 400
+chat.completions response contained no image payload
+OpenRouter images/edits trying model: google/gemini-2.5-flash-image
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Gemini%20with%20temp%20host%20(raw%20attempt)%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=1940391266&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 37.6s (compile: 212ms, render: 37.3s)
+Starting image generation...
+Prompt: Gemini with temp host (UA)
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 758618259
+Trying OpenRouter Responses (img2img)...
+0x0.st upload failed: 403
+0x0.st raw upload failed: 403
+OpenRouter trying model: google/gemini-2.5-flash-image
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+Trying OpenRouter chat.completions with model: google/gemini-2.5-flash-image
+0x0.st upload failed: 403
+0x0.st raw upload failed: 403
+chat.completions response contained no image payload
+OpenRouter images/edits trying model: google/gemini-2.5-flash-image
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Gemini%20with%20temp%20host%20(UA)%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=758618259&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 32.8s (compile: 191ms, render: 32.7s)
+Starting image generation...
+Prompt: Gemini with transfer.sh temp host
+Image file: placeholder.jpg 1064 image/jpeg
+Generated seed: 254221434
+Trying OpenRouter Responses (img2img)...
+0x0.st upload failed: 403
+0x0.st raw upload failed: 403
+transfer.sh upload error: TypeError: fetch failed
+    at async tryTransferSh (app\api\generate\route.ts:89:20)
+    at async uploadTemporaryImage (app\api\generate\route.ts:122:17)
+    at async POST (app\api\generate\route.ts:230:26)
+  87 |       const safeName = image.name || 'image.jpg'
+  88 |       const url = 'https://transfer.sh/' + encodeURIComponent(safeName)
+> 89 |       const resp = await fetch(url, {
+     |                    ^
+  90 |         method: 'PUT',
+  91 |         headers: { 'Content-Type': 'application/octet-stream', 'User-Agent': 'curl/8.5.0' },
+  92 |         body: buf, {
+  [cause]: Error: connect ECONNREFUSED 144.76.136.153:443
+      at <unknown> (Error: connect ECONNREFUSED 144.76.136.153:443) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '144.76.136.153',
+    port: 443
+  }
+}
+OpenRouter trying model: google/gemini-2.5-flash-image
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1.1-pro
+OpenRouter error: 405 
+OpenRouter trying model: black-forest-labs/flux-1-dev
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-ultra
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-image-core
+OpenRouter error: 405 
+OpenRouter trying model: stability-ai/stable-diffusion-3.5-large
+OpenRouter error: 405 
+Trying OpenRouter chat.completions with model: google/gemini-2.5-flash-image
+0x0.st upload failed: 403
+0x0.st raw upload failed: 403
+transfer.sh upload error: TypeError: fetch failed
+    at async tryTransferSh (app\api\generate\route.ts:89:20)
+    at async uploadTemporaryImage (app\api\generate\route.ts:122:17)
+    at async POST (app\api\generate\route.ts:323:26)
+  87 |       const safeName = image.name || 'image.jpg'
+  88 |       const url = 'https://transfer.sh/' + encodeURIComponent(safeName)
+> 89 |       const resp = await fetch(url, {
+     |                    ^
+  90 |         method: 'PUT',
+  91 |         headers: { 'Content-Type': 'application/octet-stream', 'User-Agent': 'curl/8.5.0' },
+  92 |         body: buf, {
+  [cause]: Error: connect ECONNREFUSED 144.76.136.153:443
+      at <unknown> (Error: connect ECONNREFUSED 144.76.136.153:443) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '144.76.136.153',
+    port: 443
+  }
+}
+chat.completions response contained no image payload
+OpenRouter images/edits trying model: google/gemini-2.5-flash-image
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-ultra
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: stability-ai/stable-image-core
+OpenRouter images/edits error: 405 
+OpenRouter images/edits trying model: black-forest-labs/flux-1.1-pro
+OpenRouter images/edits error: 405 
+Trying Pollinations AI (Flux)...
+Waiting for Pollinations to generate image...
+Generated URL: https://image.pollinations.ai/prompt/Gemini%20with%20transfer.sh%20temp%20host%2C%20high%20quality%2C%20detailed%2C%20professional?width=1024&height=1024&seed=254221434&model=flux&nologo=true&enhance=true
+Validating generated image...
+Validating image URL (attempt 1/2)...
+Image URL validation successful!
+SUCCESS - Image validated and ready
+ POST /api/generate 200 in 49s (compile: 170ms, render: 48s)
+   Reload env: .env.local
+   Reload env: .env.local
+ GET / 200 in 1772ms (compile: 764ms, render: 1008ms)
+ GET / 200 in 434ms (compile: 15ms, render: 419ms)

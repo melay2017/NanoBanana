@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "app/api/generate/route.ts": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
+  "regions": ["hnd1"],
+  "env": {
+    "OPENROUTER_API_KEY": "@openrouter_api_key",
+    "OPENROUTER_BASE_URL": "https://openrouter.ai/api/v1",
+    "OPENROUTER_SITE_NAME": "Nano Banana AI Image Editor"
+  }
+}

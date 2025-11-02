@@ -3,9 +3,34 @@ import { NextRequest, NextResponse } from 'next/server';
 // Force Node.js runtime (we use Buffer and server-side fetch with binary bodies)
 export const runtime = 'nodejs'
 
+// Upload to Vercel Blob (if configured). Returns a public URL or null on failure.
+async function uploadToVercelBlob(image: File): Promise<string | null> {
+  try {
+    const token = process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_TOKEN
+    if (!token) return null
+    // Lazy import to avoid bundling when not used
+    const { put } = await import('@vercel/blob')
+    const bytes = Buffer.from(await image.arrayBuffer())
+    const safeName = (image.name || 'image').replace(/[^A-Za-z0-9._-]/g, '_')
+    const key = `uploads/${Date.now()}-${safeName}`
+    const res = await put(key, bytes, { access: 'public', token })
+    if (res?.url) {
+      console.log('Vercel Blob upload URL:', res.url)
+      return res.url
+    }
+    return null
+  } catch (err) {
+    console.log('Vercel Blob upload failed:', err)
+    return null
+  }
+}
+
 // Upload the user-provided image to a temporary anonymous host so OpenRouter can fetch it
 // 0x0.st supports anonymous multipart uploads: curl -F 'file=@yourfile' https://0x0.st
 async function uploadTemporaryImage(image: File): Promise<string | null> {
+  // Attempt Vercel Blob first if token is available
+  const blobUrl = await uploadToVercelBlob(image)
+  if (blobUrl) return blobUrl
   // Try multiple anonymous hosts in order
   const try0x0 = async () => {
     try {
